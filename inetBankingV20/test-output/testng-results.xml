@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="inetBankingV20" duration-ms="36848" started-at="2019-07-21T07:09:24Z" finished-at="2019-07-21T07:10:01Z">
+    <groups>
+    </groups>
+    <test name="Banking App Test" duration-ms="36848" started-at="2019-07-21T07:09:24Z" finished-at="2019-07-21T07:10:01Z">
+      <class name="com.intBanking.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.intBanking.testCases.TC_LoginTest_001@149dace]" name="setUp" is-config="true" duration-ms="28313" started-at="2019-07-21T07:09:24Z" finished-at="2019-07-21T07:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBankLogo()[pri:1, instance:com.intBanking.testCases.TC_LoginTest_001@149dace]" name="verifyBankLogo" duration-ms="662" started-at="2019-07-21T07:09:53Z" finished-at="2019-07-21T07:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBankLogo -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.intBanking.testCases.TC_LoginTest_001@149dace]" name="loginTest" duration-ms="4786" started-at="2019-07-21T07:09:53Z" finished-at="2019-07-21T07:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="FAIL" signature="hompageTest()[pri:3, instance:com.intBanking.testCases.TC_LoginTest_001@149dace]" name="hompageTest" duration-ms="954" started-at="2019-07-21T07:09:58Z" finished-at="2019-07-21T07:09:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.intBanking.testCases.TC_LoginTest_001.hompageTest(TC_LoginTest_001.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hompageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.intBanking.testCases.TC_LoginTest_001@149dace]" name="tearDown" is-config="true" duration-ms="1430" started-at="2019-07-21T07:09:59Z" finished-at="2019-07-21T07:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.intBanking.testCases.TC_LoginTest_001 -->
+    </test> <!-- Banking App Test -->
+  </suite> <!-- inetBankingV20 -->
+</testng-results>

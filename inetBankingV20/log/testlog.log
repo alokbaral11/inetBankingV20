@@ -1,0 +1,24 @@
+2019-07-20 11:32:04,227 - inetBanking -INFO - url opened
+2019-07-20 11:32:07,427 - inetBanking -INFO - verified login page
+2019-07-20 11:52:48,707 - inetBanking -INFO - url opened
+2019-07-20 11:52:54,223 - inetBanking -INFO - verified login page
+2019-07-20 12:28:42,655 - inetBanking -INFO - url opened
+2019-07-20 12:28:43,394 - inetBanking -INFO - verified login page
+2019-07-20 19:25:11,041 - inetBanking -INFO - url opened
+2019-07-20 19:25:11,933 - inetBanking -INFO - verified login page
+2019-07-20 19:25:19,331 - inetBanking -INFO - login test passed
+2019-07-21 12:08:00,482 - inetBanking -INFO - url opened
+2019-07-21 12:08:08,921 - inetBanking -INFO - verified login page
+2019-07-21 12:08:21,761 - inetBanking -INFO - login test passed
+2019-07-21 12:14:47,606 - inetBanking -INFO - url opened
+2019-07-21 12:14:49,128 - inetBanking -INFO - verified login page
+2019-07-21 12:14:53,445 - inetBanking -INFO - login test failed
+2019-07-21 12:18:16,339 - inetBanking -INFO - url opened
+2019-07-21 12:18:17,564 - inetBanking -INFO - verified login page
+2019-07-21 12:18:24,789 - inetBanking -INFO - login test failed
+2019-07-21 12:31:22,706 - inetBanking -INFO - url opened
+2019-07-21 12:31:24,199 - inetBanking -INFO - verified login page
+2019-07-21 12:31:41,721 - inetBanking -INFO - login test failed
+2019-07-21 12:39:52,885 - inetBanking -INFO - url opened
+2019-07-21 12:39:53,896 - inetBanking -INFO - verified login page
+2019-07-21 12:39:59,718 - inetBanking -INFO - login test failed
